@@ -56,7 +56,7 @@ A HDR texture is mapped to the large sphere acting as a skydome. Every pixel is 
 Raymarching finds the closest point in any direction and 'march' forward to the ray direction by the distance between current point and the closest point just found. The point keeps marching until the closest distance is really small.
 
 #### Constructive solid geometry
-Most simple geometry has its own signed distance function (SDF) returning the distance from a given point to itself. Objects can be combined by tweaking distances from those functions. The object on the left was constructed with a sphere, a box, and 3 cylinders: <br>
+Most simple geometry has its own signed distance function (SDF) returning the distance from a given point to itself. Objects can be combined by tweaking distances from those functions. The object on the left (in 1st, 2nd image above) was constructed with a sphere, a box, and 3 cylinders: <br><br>
 A = Intersect(sphere, box) <br>
 B = Union(cylinderA, Union(cylinderB, cylinderC)) <br>
 Final = Difference(A, B) <br>

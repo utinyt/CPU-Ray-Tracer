@@ -113,9 +113,9 @@ int main(int argc, char** argv)
     // Allocate and clear an image array
     Color *image =  new Color[scene->width*scene->height];
 
-    int passes[] = { 1, 512 };
+    int passes[] = { 1, 8, 64 };
 
-    for (int i = 0; i < 2; ++i) {
+    for (int i = 0; i < 3; ++i) {
         //Clear image
         for (int y = 0; y < scene->height; y++)
             for (int x = 0; x < scene->width; x++)

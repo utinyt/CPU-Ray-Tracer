@@ -11,23 +11,22 @@ Implemented intersection calculations between ray vs simple primitives:
 * Ray vs AABB
 * Ray vs Triangle
 * Ray vs Cylinder
-<br>
 Used Eigen's implementation of sparial data structure to accelerate ray intersection calculation.
-<br>
+<br><br>
 
 ## Project 2 - Path tracing
 ![path_tracing](https://github.com/utinyt/CPU-Ray-Tracer/blob/main/output_images/project2_path_tracing.png)<br>
 (800x600, 512 passes per pixel)
-<br>
+<br><br>
 Instead of shooting a single ray, the program shoots ray multiple times and average the colors from each ray. Free anti-aliasing comes from slightly changing the direction of the ray so that it doesn't always head to the center of the pixel.<br>
 <br>
 
 ## Project 3 - Reflection
 ![reflection](https://github.com/utinyt/CPU-Ray-Tracer/blob/main/output_images/project3_reflection.png)<br>
 (600x480, 512 passes per pixel, GGX)
-<br>
+<br><br>
 Used GGX BRDF for choosing the halfway vector ((wo + wi) / |wo + wi|), and calculated the reflection vector as a final output. Specular term is added to the BRDF.
-<br>
+<br><br>
 
 ## Project 4 - Transmission
 ![transmission](https://github.com/utinyt/CPU-Ray-Tracer/blob/main/output_images/project4_transmissionpng.png)<br>
@@ -39,7 +38,7 @@ As the ray goes through the object, the amount of light is attenuated, which is 
 
 #### Multiple importance sampling
 Much smarter way of choosing a path (MIS) is used for this project.
-<br>
+<br><br>
 
 ## Project 5 - Image based lighting & Ray marching
 ![ibl1](https://github.com/utinyt/CPU-Ray-Tracer/blob/main/output_images/project5_ibl1.png)<br>

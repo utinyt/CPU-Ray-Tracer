@@ -11,6 +11,7 @@ Implemented intersection calculations between ray vs simple primitives:
 * Ray vs AABB
 * Ray vs Triangle
 * Ray vs Cylinder
+<br>
 Used Eigen's implementation of sparial data structure to accelerate ray intersection calculation.
 <br><br>
 

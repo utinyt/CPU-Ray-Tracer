@@ -32,7 +32,7 @@ Used GGX BRDF for choosing the halfway vector ((wo + wi) / |wo + wi|), and calcu
 ## Project 4 - Transmission
 ![transmission](https://github.com/utinyt/CPU-Ray-Tracer/blob/main/output_images/project4_transmissionpng.png)<br>
 (600x480, 512 passes per pixel)
-<br><br>
+<br>
 
 #### Beer's law
 As the ray goes through the object, the amount of light is attenuated, which is determined by the distance t the ray traveled through the object and pre-defined RGB value specifying the color after the ray transmits through the object.

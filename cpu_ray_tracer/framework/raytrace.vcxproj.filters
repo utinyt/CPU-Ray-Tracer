@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="geom.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="raytrace.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="readAssimpFile.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="rgbe.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="shape.cpp">
+      <Filter>scene_elements</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>scene_elements</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>scene_elements</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>scene_elements</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="geom.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="raytrace.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="shape.h">
+      <Filter>scene_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>scene_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>scene_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>scene_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="meshData.h">
+      <Filter>scene_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="minimizer.h">
+      <Filter>scene_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>scene_elements</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="framework">
+      <UniqueIdentifier>{df59f796-bc70-4b04-a853-ead3b912cf2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene_elements">
+      <UniqueIdentifier>{f0f69577-230c-401f-9310-830e0c641618}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

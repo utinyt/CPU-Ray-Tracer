@@ -1,4 +1,4 @@
-# CPU-Ray-Tracer
+# CPU Ray Tracer
 This is a one-semester project generating high quality images using ray-tracing technique.<br>
 *Instructor: Dr. Gary Herron*
 

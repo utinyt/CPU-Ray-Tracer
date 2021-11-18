@@ -1,5 +1,5 @@
 # CPU Ray Tracer
-This is a one-semester project generating high quality images using ray-tracing technique.<br>
+This is a one-semester project generating realistic looking images by using ray-tracing technique.<br>
 *Instructor: Dr. Gary Herron*
 
 ## Project 1 - Ray casting
